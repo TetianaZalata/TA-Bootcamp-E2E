@@ -1,0 +1,169 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669675358777' stop='1669675403287'>
+    <name>Bootcamp E2E: Internet shop logo button</name>
+    <title>Bootcamp E2E: Internet shop logo button</title>
+    <test-cases>
+        <test-case start='1669675358777' status='passed' stop='1669675358778'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669675358779' status='passed' stop='1669675370743'>
+            <name>Given I open the home page</name>
+            <title>Given I open the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669675358780' status='passed' stop='1669675367739'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f27b5059-adbb-4d06-a040-3bfecae0089f-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669675370743' status='passed' stop='1669675382454'>
+            <name>And I close the promo banner if it appears</name>
+            <title>And I close the promo banner if it appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669675370744' status='passed' stop='1669675382452'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669675382454' status='passed' stop='1669675394485'>
+            <name>When I open "Today's Best Deals" tab</name>
+            <title>When I open "Today's Best Deals" tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669675382456' status='passed' stop='1669675382590'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2c7a8d17-24c4-4273-a725-3e5f2565121d-attachment.json' type='application/json' size='73'/>
+                        <attachment title='Response' source='5fc43986-1c6a-4c79-b55d-4af90f11c7d4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669675382617' status='passed' stop='1669675394484'>
+                    <name>POST /session/:sessionId/element/f3516ee3-333b-4333-8ec3-412295c5a0f1/click</name>
+                    <title>POST /session/:sessionId/element/f3516ee3-333b-4333-8ec3-412295c5a0f1/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669675394485' status='passed' stop='1669675403271'>
+            <name>And I click on Shop logo top right</name>
+            <title>And I click on Shop logo top right</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669675394487' status='passed' stop='1669675394615'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6fc567d2-33d5-46d8-857a-d182ae2189a4-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='0e58cb62-e29a-4a79-9d1c-1d268b2bff9a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1669675394620' status='passed' stop='1669675403271'>
+                    <name>POST /session/:sessionId/element/e5d87531-1ced-422d-8eb0-32c084388b3c/click</name>
+                    <title>POST /session/:sessionId/element/e5d87531-1ced-422d-8eb0-32c084388b3c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1669675403271' status='broken' stop='1669675403286'>
+            <name>Then I check that the main page opened</name>
+            <title>Then I check that the main page opened</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: function uses multiple asynchronous interfaces: callback and promise</message>
+                <stack-trace>Error: function uses multiple asynchronous interfaces: callback and promise
+                to use the callback interface: do not return a promise
+                to use the promise interface: remove the last argument to the function
+                    at Object.run (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/user_code_runner.js:35:24)
+                    at Object.run (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/runtime/step_runner.js:52:59)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async TestCaseRunner.invokeStep (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:93:16)
+                    at async TestCaseRunner.runStep (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:237:26)
+                    at async /home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:163:48
+                    at async TestCaseRunner.aroundTestStep (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:117:32)
+                    at async TestCaseRunner.run (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/runtime/test_case_runner.js:146:17)
+                    at async Runtime.runTestCase (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/runtime/index.js:41:24)
+                    at async Runtime.start (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@cucumber/cucumber/lib/runtime/index.js:65:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669675403286' status='passed' stop='1669675403287'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

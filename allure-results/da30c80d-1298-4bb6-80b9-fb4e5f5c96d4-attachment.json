@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#piq_side_bar_unique > div > div:nth-child(1)"
+}

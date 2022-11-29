@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#piq_side_bar_unique > div > div:nth-child(1)\"}\n  (Session info: chrome=107.0.5304.121)",
+  "stacktrace": "#0 0x55bfa4dfd463 <unknown>\n#1 0x55bfa4bc18d8 <unknown>\n#2 0x55bfa4bff43a <unknown>\n#3 0x55bfa4bff651 <unknown>\n#4 0x55bfa4c3b7a4 <unknown>\n#5 0x55bfa4c2064d <unknown>\n#6 0x55bfa4c3930f <unknown>\n#7 0x55bfa4c20443 <unknown>\n#8 0x55bfa4bf13c5 <unknown>\n#9 0x55bfa4bf2531 <unknown>\n#10 0x55bfa4e4fdce <unknown>\n#11 0x55bfa4e53192 <unknown>\n#12 0x55bfa4e3493e <unknown>\n#13 0x55bfa4e54103 <unknown>\n#14 0x55bfa4e27d85 <unknown>\n#15 0x55bfa4e750a8 <unknown>\n#16 0x55bfa4e75239 <unknown>\n#17 0x55bfa4e90492 <unknown>\n#18 0x7f852388c6ba start_thread\n"
+}
