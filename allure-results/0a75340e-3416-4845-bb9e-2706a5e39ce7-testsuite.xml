@@ -1,0 +1,140 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669801747202' stop='1669801756809'>
+    <name>Bootcamp E2E: Search bar</name>
+    <title>Bootcamp E2E: Search bar</title>
+    <test-cases>
+        <test-case start='1669801747205' status='passed' stop='1669801747209'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669801747209' status='broken' stop='1669801756795'>
+            <name>Given I open the home page</name>
+            <title>Given I open the home page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps>
+                <step start='1669801747217' status='broken' stop='1669801756794'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='f25340be-89ea-48c8-96c6-7e94a05eeb64-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps>
+                        <step start='1669801756775' status='broken' stop='1669801756794'>
+                            <name>DELETE /session/:sessionId</name>
+                            <title>DELETE /session/:sessionId</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>RequestError: socket hang up</message>
+                <stack-trace>RequestError: socket hang up
+                    at ClientRequest.&lt;anonymous> (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/got/dist/source/core/index.js:970:111)
+                    at Object.onceWrapper (node:events:628:26)
+                    at ClientRequest.emit (node:events:525:35)
+                    at ClientRequest.emit (node:domain:489:12)
+                    at ClientRequest.origin.emit (/home/puma/Desktop/Bootcamp/TA-Bootcamp-E2E-1/node_modules/@szmarczak/http-timer/dist/source/index.js:43:20)
+                    at Socket.socketOnEnd (node:_http_client:518:9)
+                    at Socket.emit (node:events:525:35)
+                    at Socket.emit (node:domain:489:12)
+                    at endReadableNT (node:internal/streams/readable:1358:12)
+                    at connResetException (node:internal/errors:705:14)
+                    at Socket.socketOnEnd (node:_http_client:518:23)
+                    at Socket.emit (node:events:525:35)
+                    at Socket.emit (node:domain:489:12)
+                    at endReadableNT (node:internal/streams/readable:1358:12)
+                    at processTicksAndRejections (node:internal/process/task_queues:83:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669801756795' status='pending' stop='1669801756796'>
+            <name>And I close the promo banner if it appears</name>
+            <title>And I close the promo banner if it appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669801756796' status='pending' stop='1669801756796'>
+            <name>When I entry the Windows in the search bar top middle</name>
+            <title>When I entry the Windows in the search bar top middle</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669801756797' status='pending' stop='1669801756797'>
+            <name>And I click the search</name>
+            <title>And I click the search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669801756800' status='pending' stop='1669801756801'>
+            <name>Then Check that at least one item appears</name>
+            <title>Then Check that at least one item appears</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669801756801' status='passed' stop='1669801756807'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.121'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

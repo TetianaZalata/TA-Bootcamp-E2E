@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"item_cell_32-350-881_1_0\"]/div/div[1]/a"
+}

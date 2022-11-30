@@ -25,8 +25,8 @@ When(`I click the search`, async () => {
 });
 
 Then("Check that at least one item appears", async () => {
-  const item = await $(`//*[@id="item_cell_32-350-881_1_0"]/div/div[1]/a`);
-  await expect(item).toExist();
+  const windowsItem = await $('[id="item_cell_9SIA25VGYM6011_1_0"]');
+  await expect(windowsItem).toExist();
 });
 
 When("I open {string} tab", async (tab) => {
