@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[contains(@id, \"trendingBanner_720202\") and normalize-space() = \"Today's Best Deals\"]"
+}
