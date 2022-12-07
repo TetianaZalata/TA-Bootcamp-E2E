@@ -11,9 +11,9 @@ Given("I open the home page", async () => {
 
 Given("I close the promo banner if it appears", async () => {
   try {
-    await $('[title="Tech Bells Ringing"]').isDisplayed();
-  } catch (err) {
-    await browser.refresh(err);
+    await $('[title="Tech Bells Ringing"]').waitForDisplayed();
+  } catch {
+    await browser.refresh();
   }
 });
 
